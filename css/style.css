@@ -11,6 +11,10 @@
            margin-top: 40px;    
            margin-bottom: 5px;   
         }
+
+        h4 {
+            line-height: 1.5;
+        }
         
         .sep {
             //background-color: red;
@@ -85,6 +89,17 @@
             //background-size: contain;
             background-repeat: no-repeat;
         }
+
+        #feature-hero-container {
+            position: relative;
+            margin-top: 120px;
+            background-image: url("../images/2015ChampofFootball.jpg");
+            height:600px;
+            width: 100%;
+            background-size: cover;
+            //background-size: contain;
+            background-repeat: no-repeat;
+        }        
 
         .hero-caption {
             position: absolute;
@@ -494,7 +509,10 @@
             #hero-container {
                 height: 300px;
             }
-            
+
+            #feature-hero-container {
+                height: 300px;
+            }            
             .hero-caption {
                 bottom: 20px;
             }            
