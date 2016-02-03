@@ -1,0 +1,575 @@
+       h1, h2, h3 {
+            //color: #8AC007;
+           color: #337ab7;
+        }
+
+        h1 {
+            text-align: center;
+        }
+        
+        h3 {
+           margin-top: 40px;    
+           margin-bottom: 5px;   
+        }
+        
+        .sep {
+            //background-color: red;
+            height: 3px;
+            width: 150px;
+            margin: 0px auto 20px auto;
+        }
+        
+        body {
+            //background-color: #FFFFAE;    
+            background-color: #FFF;    
+        }
+        
+
+        .navbar-brand {
+            font-size: 1.8em;
+        }
+        
+        .navbar-toggle {
+            margin-top: 20px;
+        } 
+        
+        .site-menu {
+            margin-top: 30px;
+            float: right;            
+        }
+        
+        .site-logo {
+            display: inline-block;
+            margin: 20px 0;
+        }        
+        
+        .site-logo-img {
+              width: auto;
+              height: 80px;      
+        }
+        
+        .site-logo-name {
+            display: inline-block;
+            font-size: 25px;
+            
+        }
+        
+        #carousel-generic  {
+            margin-top: 120px;
+        }  
+        
+        #feature-container {
+            margin-top: 0px;
+        }                 
+        
+        
+        .carousel-inner {
+            height: 600px;
+        }
+        
+        .carousel-img {
+            width:100%;
+        }        
+
+        #top-container {
+            margin-top: 120px;
+        }
+        
+        #hero-container {
+            position: relative;
+            margin-top: 120px;
+            background-image: url("../images/hero1.jpg");
+            height:600px;
+            width: 100%;
+            background-size: cover;
+            //background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        .hero-caption {
+            position: absolute;
+            
+            right: 15%;
+            bottom: 270px;
+            left: 15%;
+            z-index: 10;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            color: #fff;
+            text-align: center;
+            text-shadow: 0 1px 2px rgba(0,0,0,.6);
+        }
+
+        .hero-caption h2 {
+            color: #fbfd63;
+        }
+        
+        #top-row {
+            margin-top: 50px;
+            text-align: center;
+            line-height: 2.0;
+        }
+
+        #top-row-objective {
+            margin-top: 40px;
+            text-align: left;
+            line-height: 2.0;
+            
+        }
+        
+        #top-row h1 {
+            font-size: 300%;
+            margin: 30px 0;
+        }
+        
+        #emailSignup {
+            margin-top: 50px;
+        }
+        
+        .bold {
+            font-weight: bold;
+        }
+        
+        .marginTop {
+            margin-top: 80px;
+            text-align: center;
+            display: table;
+              
+
+        }
+        
+        .feature {
+            display: table-cell;
+            vertical-align: middle;
+            //border: 1px solid red;
+            outline: 1px solid black;
+            //border-radius: 20px; 
+            height: 200px; 
+            cursor: pointer;
+
+        }
+
+
+
+        #feature-1-img {
+            background-image: url("../images/feature1.jpg");
+            background-size: cover;
+            background-position: 100% 0%;            
+        }
+
+        #feature-2-img {
+            background-image: url("../images/feature2.jpg");
+            background-size: cover;
+            background-position: 0% 50%;            
+        }
+
+        #feature-3-img {
+            background-image: url("../images/feature3.jpg");
+            background-size: cover;
+            background-position: 0% 50%;            
+        }
+
+        .feature h2 {
+            -webkit-transition: color 2s ease-out;
+            -moz-transition: color 2s ease-out;
+            -o-transition: color 2s ease-out;
+            transition: color 2s ease-out;  
+            
+            color: white;
+            -webkit-transition: background-color 1s ease-out;
+            -moz-transition: background-color 1s ease-out;
+            -o-transition: background-color 1s ease-out;
+            transition: background-color 1s ease-out;           
+            background-color: rgba(0, 0, 0, 0.6);
+        }
+
+        .feature h2:hover {
+            color: #337ab7;
+            background-color: rgba(255, 255, 255, 0.8);
+            
+        }
+
+        .feature: hover h2 {
+            color: black;
+        }
+        
+        .center {
+            text-align: center;
+        }
+        
+        .sponsor-text {
+            text-align: left;
+        }
+
+        #sponsor-block {
+            margin-bottom: 50px;
+        }
+        
+        .title {
+            margin-top: 0px;
+        }
+        
+        .lead {
+            line-height: 1.8;   
+        }
+
+        #members-image {
+            background-image: url("../images/members.gif");
+            width: 500px;
+            height: 285px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .members-caption {
+             width: 500px;
+             margin: 0 auto;
+             text-align: justify;           
+        }
+
+        .people-img {
+            height: 150px;
+            width: 130px;
+            display: block;
+            margin: 0 auto;
+            outline: 1px solid #000
+        }
+
+        .gallery-img {
+            //height: 150px;
+            width: 130px;
+            display: block;
+            margin: 0 auto;
+        }
+        
+        
+        #footer {
+             //background-color: #FFDE00 !important;
+            background-image: -webkit-linear-gradient(top,#fff 30%,#fbfd63 100%);
+            background-image: -moz-linear-gradient(top,#fff 30%,#fbfd63 100%);
+            background-image: -o-linear-gradient(top,#fff 30%,#fbfd63 100%);
+            background-image: linear-gradient(top,#fff 30%,#fbfd63 100%);            
+             padding-top:70px;
+             width:100%;  
+             border-top: 1px solid red;
+        }
+
+        #footer h3 {
+            color: black;
+        }
+
+        .footer-sep {
+            //background-color: red;
+            height: 3px;
+            width: 60px;
+            margin-left: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .sponser-logo {
+            height: 90px; 
+            display: block;
+            margin: 20px 0;
+        }
+
+        .sponser-logo {
+            color: black;
+        }
+
+        .contact-link {
+            display: block;
+            line-height: 2.5;
+            font-size: 16px;
+            color: black;
+        }
+        
+        /*-----fb-----*/
+        .fb{
+            background: #3c66c4;
+            border:none;
+            outline:none;
+            margin: 10px 0 0px 0;
+            width: 200px;
+        }
+        .fb:hover {
+        background:#315997;
+        }
+        .fb a span,.space a span,.linkedin a span,.tumblr a span,.delicious a span,.email a span,.google a span,.twitter a span,.flicker a span,.github a span {
+            background: url(../images/icons.png) no-repeat 9px 5px;
+            height: 41px;
+            width: 45px;
+            display: inline-block;
+            float: left;
+            margin: 3px 0px 0px 2px;
+        }
+        .fb lable{
+            color: #fff;
+            padding: 12px 10px;
+            float: left;
+            font-size: 14px;
+            width: 61%;
+            border-left: 1px solid rgba(39, 74, 153, 0.29);
+        }
+        .fb:hover{
+            background:#335FA4;
+        }   
+        
+        /*--twitter-----*/
+        .twitter lable{
+            border-left: 1px solid rgba(33, 174, 221, 0.38);
+            color: #fff;
+            padding: 12px 10px;
+            float: left;
+            font-size: 14px;
+            width: 61%;
+        }
+        .twitter{
+            background: #33ccff;
+            margin: 20px 0;
+            width: 200px;
+        }
+        .twitter a span{
+            background: url(../images/icons.png) no-repeat -48px -139px;
+        }
+        .twitter:hover{
+            background: #29A6D0;
+        }        
+        
+        .feature-bottom {
+            margin-bottom:100px;
+         }
+        
+        .people-bottom {
+            margin-bottom:40px;
+        }
+        
+        .clear {
+            clear: both;
+        }
+        
+        .navbar-default {
+            //background-color: rgba(255, 255, 174, 0.9);
+            //border-color: #E7E7E7;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-bottom: 1px solid red;
+        }
+        /* title */
+        .navbar-default .navbar-brand {
+            color: #777;
+        }
+        .navbar-default .navbar-brand:hover,
+        .navbar-default .navbar-brand:focus {
+            color: #5E5E5E;
+        }
+        /* link */
+        .navbar-default .navbar-nav > li > a {
+            color: #777;
+            padding: 15px 20px 5px 20px;
+        }
+        .navbar-default .navbar-nav > li > a:hover,
+        .navbar-default .navbar-nav > li > a:focus {
+            color: #8AC007;
+        }
+        .navbar-default .navbar-nav > .active > a, 
+        .navbar-default .navbar-nav > .active > a:hover, 
+        .navbar-default .navbar-nav > .active > a:focus {
+            color: #8AC007;
+            background-color: rgba(255, 255, 174, 0);
+            border-bottom: 3px solid #8AC007;
+        }
+        .navbar-default .navbar-nav > .open > a, 
+        .navbar-default .navbar-nav > .open > a:hover, 
+        .navbar-default .navbar-nav > .open > a:focus {
+            color: #555;
+            background-color: #D5D5D5;
+        }
+        /* caret */
+        .navbar-default .navbar-nav > .dropdown > a .caret {
+            border-top-color: #777;
+            border-bottom-color: #777;
+        }
+        .navbar-default .navbar-nav > .dropdown > a:hover .caret,
+        .navbar-default .navbar-nav > .dropdown > a:focus .caret {
+            border-top-color: #333;
+            border-bottom-color: #333;
+        }
+        .navbar-default .navbar-nav > .open > a .caret, 
+        .navbar-default .navbar-nav > .open > a:hover .caret, 
+        .navbar-default .navbar-nav > .open > a:focus .caret {
+            border-top-color: #555;
+            border-bottom-color: #555;
+        }
+        /* mobile version */
+        .navbar-default .navbar-toggle {
+            border-color: #8AC007;
+            margin-top: 25px;
+        }
+        .navbar-default .navbar-toggle:hover,
+        .navbar-default .navbar-toggle:focus {
+            //background-color: rgba(255, 255, 50, 1);
+            background-color: rgba(255, 255, 255, 1);
+            
+        }
+        .navbar-default .navbar-toggle .icon-bar {
+            background-color: #8AC007;
+        }
+
+        .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+            border-color: red;
+        }
+
+        @media (max-width: 992px) {
+            
+            .carousel-inner {
+                height: 450px;
+            }  
+            
+            .sponser-logo {
+                height: 70px;
+                margin: 0 auto;
+            }
+        }
+
+        @media (max-width: 767px) {
+            
+            h1 {
+                font-size: 30px;
+            }
+            
+            h2 {
+                font-size: 25px;
+            }
+            
+            h3 {
+                font-size: 20px;
+            }   
+            
+            #top-row h1 {
+                font-size: 250%;
+            }
+            
+            .site-menu {
+                margin-top: 30px;
+                float: none;
+                display: block;
+                width: 200px;
+                margin: 0 auto;
+            }     
+
+            .site-logo-img {
+                height: 60px;
+            }
+            
+            .site-logo-name {
+                font-size: 20px;
+            }
+            
+            .navbar-default .navbar-nav > li > a {
+                text-align: center;
+            }
+            
+            .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+                color: #777;
+            }
+            .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+            .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+                color: #333;
+            }
+            
+        
+            .carousel-inner {
+                height: 250px;
+            }   
+            
+             #feature-container {
+                margin-top: 0px;
+            }   
+            
+            .marginTop {
+                margin-top: 40px;
+            }
+            
+            #hero-container {
+                height: 300px;
+            }
+            
+            .hero-caption {
+                bottom: 20px;
+            }            
+            
+            .feature {
+                width: 700px;   
+            }
+            
+            #members-image {
+                width: 300px;
+                height: 175px;
+            }
+            
+            .members-caption {
+                width: 300px;
+            }
+            
+            .fb{
+                margin: 10px auto 0px auto;
+            }
+            
+            .twitter{
+                margin: 10px auto 0px auto;
+            }            
+            
+            .sponser-logo, social-logo {
+                display: inline-block;
+                margin: 20px auto;
+            }
+            
+            .sponsor-text {
+                text-align: center;
+            } 
+            
+            #mobile-bottom {
+                margin-bottom: 50px;
+            }   
+            
+            #sponsor-block {
+                margin-bottom: 0px;
+            }            
+        }    
+
+        @media (max-width: 375px) {
+            
+            h1 {
+                font-size: 25px;
+            }
+            
+            h2 {
+                font-size: 20px;
+            }
+            
+            h3 {
+                font-size: 16px;
+            }             
+            .carousel-inner {
+                height: 200px;
+            } 
+            
+            #top-row h1 {
+                font-size: 200%;
+            } 
+            
+            body {
+                font-size: 12px;
+            }
+            
+            .contact-link {
+                font-size: 12px;
+            }   
+            
+            .sponser-logo {
+                height: 60px;
+            }
+            
+
+        }
