@@ -29,7 +29,10 @@
             //background-color: #FFFFAE;    
             background-color: #FFF;    
         }
-        
+
+        .designed-by {
+            float: right;
+        }
 
         .navbar-brand {
             font-size: 1.8em;
@@ -138,7 +141,7 @@
 
         
         #carousel-generic  {
-            margin-top: 120px;
+            /*margin-top: 120px;*/
         }  
         
         #feature-container {
@@ -147,7 +150,7 @@
         
         
         .carousel-inner {
-            height: 500px;
+            height: 700px;
         }
         
         .carousel-img {
@@ -200,9 +203,9 @@
 
         #hero-container {
             position: relative;
-            margin-top: 120px;
+            /*margin-top: 120px;*/
             background-image: url("../images/hero1.jpg");
-            height:500px;
+            height:700px;
             width: 100%;
             background-size: cover;
             //background-size: contain;
@@ -536,7 +539,7 @@
         .navbar-default {
             //background-color: rgba(255, 255, 174, 0.9);
             //border-color: #E7E7E7;
-            background-color: rgba(255, 255, 255, 0.9);
+            background-color: rgba(255, 255, 255, 0.8);
             //border-bottom: 1px solid red;
         }
         /* title */
@@ -619,6 +622,15 @@
                 height: 120px;
                 margin: 0 auto;
             }
+
+            .prize-img-1, .prize-img-2 {
+                background-size: cover;
+                height: 450px;
+            } 
+
+            .prize-img-2 {
+                background-position: bottom;
+            }           
         }
 
         @media (max-width: 767px) {
@@ -666,12 +678,9 @@
             .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
                 color: #333;
             }
-            
-            .prize-img-1, .prize-img-2 {
-                display: none;
-            }
         
             .carousel-inner {
+                margin-top: 120px;
                 height: 250px;
             }   
             
@@ -720,7 +729,12 @@
             #action-circle #action-text {
                 margin: 30px auto 0 auto;
                 font-size: 17px;
-            }       
+            } 
+
+            .prize-img-1, .prize-img-2 {
+                background-size: cover;
+                height: 280px;
+            }                  
 
             .feature-paragraph-address {
                 font-size: 16px;
