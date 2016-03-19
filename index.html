@@ -16,6 +16,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -63,6 +64,25 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         </div>
     </div>
 
+    <div class="container-fluid carousel-container">
+      <div class="row">
+        <div class="redirect-backdrop">
+          <div class="nav-close" style="float: right; color: #fff; margin-right: 20px; margin-top: 20px;">
+              <div class="fa fa-times fa-2x"></div>
+          </div>
+          <a href="feature1.html">
+            <div class="backdrop-rect">
+                <div class="backdrop-title">
+                    Entry to Summer Fiesta 2016 now open. Click below to find out more!
+                </div>
+                <div class="redirect-container">
+                    <div class="pi-ico" ></div>
+                </div>
+            </div>
+          </a>
+        </div> 
+      </div>    
+    </div> 
     <div class="container-fluid carousel-container">
         <div class="row">
         <div id="carousel-generic" id=""class="carousel slide" data-ride="carousel" data-interval="3000" >
@@ -154,7 +174,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
     </div>
 
-     <div class="container content-Container" id="footer">
+     <div class="container content-container" id="footer">
          <div class="row">
              <div class="col-md-10 col-md-offset-1">
              <p class="center title">We are happy to hear from anyone who wishes to help and/or support our venture or if you wish to give us feedback. We will endeavour to get back to you as soon as possible.</p>
@@ -211,6 +231,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/velocity/1.2.3/velocity.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/velocity/1.2.3/velocity.ui.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.js"></script>
 
@@ -219,6 +241,20 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         $('.carousel').carousel({
             interval: 3000
         })
+    $(document).ready(function() {
+        $('.redirect-backdrop')
+            .velocity("stop")
+            .velocity("transition.fadeIn", 0);
+        $('body').addClass('noscroll');  
+
+        $('.redirect-backdrop').on('click', function(){
+            $(this)
+                .velocity("stop")
+                .velocity("transition.fadeOut", 1000);  
+            $('body').removeClass('noscroll');          
+        })   
+    });
+      
 
     </script>
   </body>

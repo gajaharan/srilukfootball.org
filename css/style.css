@@ -1,3 +1,5 @@
+       .noscroll { position: fixed; overflow-y:scroll; width:100%; }
+
        h1, h2, h3 {
             //color: #8AC007;
            color: #337ab7;
@@ -55,8 +57,85 @@
         .site-logo-name {
             display: inline-block;
             font-size: 25px;
-            
         }
+
+        .redirect-backdrop {
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background: rgba(0,0,0,.6);
+            z-index: 3001;
+            display: none;
+        }
+
+        .redirect-backdrop .backdrop-rect {
+            width: 500px;
+            height: 120px;
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            margin-left: -220px
+        }
+
+        @media (max-width: 767px) {
+            .redirect-backdrop .backdrop-rect {
+                width:300px;
+                margin-left: -150px;
+                height: 240px;
+                top: 50px
+            }
+        }
+
+        .redirect-backdrop .backdrop-rect .backdrop-title {
+            text-align: center;
+            font-size: 25px;
+            margin-top: 40px;
+            line-height: 50px;
+            color: #fff
+        }
+
+        @media (max-width: 767px) {
+            .redirect-backdrop .backdrop-rect .backdrop-title {
+                font-size:18px;
+                line-height: 25px;
+                margin-top: 30px
+            }
+        }
+
+        .redirect-backdrop .backdrop-rect .redirect-container {
+            width: 370px;
+            margin: -80px auto 0;
+            height: 120px;
+            display: table
+        }
+
+        @media (max-width: 767px) {
+            .redirect-backdrop .backdrop-rect .redirect-container {
+                width: 230px;
+                height: 280px;
+                margin-top: 0px;
+            }
+        }
+
+        .redirect-backdrop .backdrop-rect .redirect-container .pi-ico {
+            background-image: url("../images/fls2016.jpg");
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 860px;
+            width: 480px;
+            float: left
+        }
+
+        @media (max-width: 767px) {
+            .redirect-backdrop .backdrop-rect .redirect-container .pi-ico {
+                height: 400px;
+                width: 250px
+            }
+        }
+
         
         #carousel-generic  {
             margin-top: 120px;
@@ -98,6 +177,26 @@
             font-size: 20px;
             color: white;
         }
+
+        .prize-img-1 {
+            margin: 0;
+            padding: 0;
+            background-image: url('../images/footballprize2016.jpg');
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 1000px;            
+        }
+
+        .prize-img-2 {
+            margin: 0;
+            padding: 0;
+            background-image: url('../images/cricketprize2016.jpg');
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 1000px;            
+        }        
 
         #hero-container {
             position: relative;
@@ -357,8 +456,10 @@
             margin: 20px 0;
         }
 
-        .sponser-logo {
-            color: black;
+        .sponser-logo2 {
+            height: 140px; 
+            display: block;
+            margin: 20px 0;
         }
 
         .contact-link {
@@ -513,6 +614,11 @@
                 height: 70px;
                 margin: 0 auto;
             }
+
+            .sponser-logo2 {
+                height: 120px;
+                margin: 0 auto;
+            }
         }
 
         @media (max-width: 767px) {
@@ -561,6 +667,9 @@
                 color: #333;
             }
             
+            .prize-img-1, .prize-img-2 {
+                display: none;
+            }
         
             .carousel-inner {
                 height: 250px;
@@ -639,7 +748,7 @@
                 margin: 10px auto 0px auto;
             }            
             
-            .sponser-logo, social-logo {
+            .sponser-logo, .sponser-logo2, .social-logo {
                 display: inline-block;
                 margin: 20px auto;
             }
@@ -688,6 +797,10 @@
             
             .sponser-logo {
                 height: 60px;
+            }
+
+            .sponser-logo2 {
+                height: 100px;
             }
             
 
