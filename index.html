@@ -127,7 +127,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     </div>
 
 
-    <div class="container content-container">
+    <div class="container content-container" id="startLine">
         <div class="row">
             <div class="col-md-10 col-md-offset-1" id="top-row">
                 <h1>Sri Lankan Football Organisation UK</h1>
@@ -225,6 +225,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                       </div>
                  </div>
              </div>
+             <div style="clear: both"></div>
              <div class="col-md-12" style="border-top:1px solid black">
                 <span class="designed-by">Designed by <a href="http://www.gajaharan.com" target="_new">gajaharan.com</a></span>
              </div>
@@ -237,27 +238,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <script src="https://cdn.jsdelivr.net/velocity/1.2.3/velocity.ui.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.js"></script>
-
-    <script>
-
-        $('.carousel').carousel({
-            interval: 3000
-        })
-    $(document).ready(function() {
-        $('.redirect-backdrop')
-            .velocity("stop")
-            .velocity("transition.fadeIn", 0);
-        $('body').addClass('noscroll');  
-
-        $('.redirect-backdrop').on('click', function(){
-            $(this)
-                .velocity("stop")
-                .velocity("transition.fadeOut", 1000);  
-            $('body').removeClass('noscroll');          
-        })   
-    });
-      
-
-    </script>
+    <script src="js/srilukfootball.js"></script>
   </body>
 </html>

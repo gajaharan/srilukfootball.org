@@ -43,13 +43,14 @@
         } 
         
         .site-menu {
-            margin-top: 30px;
-            float: right;            
+            margin-top: 18px;
+            float: right;     
+            font-weight: bold;       
         }
         
         .site-logo {
             display: inline-block;
-            margin: 20px 0;
+            margin: 4px 0;
         }        
         
         .site-logo-img {
@@ -186,9 +187,9 @@
             padding: 0;
             background-image: url('../images/footballprize2016.jpg');
             background-size: contain;
-            background-position: center;
             background-repeat: no-repeat;
-            height: 1000px;            
+            height: 600px;   
+            margin-top: 145px !important;         
         }
 
         .prize-img-2 {
@@ -196,10 +197,15 @@
             padding: 0;
             background-image: url('../images/cricketprize2016.jpg');
             background-size: contain;
-            background-position: center;
             background-repeat: no-repeat;
-            height: 1000px;            
-        }        
+            height: 600px;  
+            margin-top: 145px !important;          
+        } 
+
+        .prize-text {
+            color: #fff;
+            font-size: 18px;
+        }       
 
         #hero-container {
             position: relative;
@@ -541,6 +547,7 @@
             //border-color: #E7E7E7;
             background-color: rgba(255, 255, 255, 0.8);
             //border-bottom: 1px solid red;
+            //border-color: rgba(255,255,255,0.25);
         }
         /* title */
         .navbar-default .navbar-brand {
@@ -591,7 +598,7 @@
         /* mobile version */
         .navbar-default .navbar-toggle {
             border-color: #8AC007;
-            margin-top: 25px;
+            margin-top: 18px;
         }
         .navbar-default .navbar-toggle:hover,
         .navbar-default .navbar-toggle:focus {
@@ -625,7 +632,9 @@
 
             .prize-img-1, .prize-img-2 {
                 background-size: cover;
+                background-position: center;
                 height: 450px;
+                margin-top: 0;
             } 
 
             .prize-img-2 {
